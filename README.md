@@ -4,7 +4,7 @@
 # How to Contribute
 We are currently seeking volunteers with the following skills or would like to grow the following skills:
 -
-- Product Strategy
+- Product Strategy (works w/ Community Champion)
     - Help partner with United Way
     - Help integrate product with current 211 services
     - Research grants to support SMS texting costs
@@ -15,7 +15,7 @@ We are currently seeking volunteers with the following skills or would like to g
     - Set up SMS texting infrastructure
     - Implement chatbot flow
     - Add NLP to make bot more intelligent
-- Community Champion 
+- Community Champion (works w/ Product Strategy)
     - Help partner with United Way
     - Help integrate product with current 211 services
 
