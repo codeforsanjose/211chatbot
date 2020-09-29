@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "211chatbot-backend",
   "version": "1.0.0",
   "description": "211chatbot backend",
   "main": "index.js",
@@ -7,5 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Code for San Jose",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeforsanjose/211chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codeforsanjose/211chatbot/issues"
+  },
+  "homepage": "https://github.com/codeforsanjose/211chatbot#readme"
 }

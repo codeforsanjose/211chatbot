@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+
+    211chatbot:
+        volumes:
+          - .:/211chatbot
+          - /211chatbot/node_modules
+        build: "./"
+        image: "api"
+        ports:
+          - "8008:8008"
+        environment:
+          - NODE_ENV=development
+        command: npx nodemon -w /ballotnav/app.js app.js

@@ -11,7 +11,7 @@ We are currently seeking volunteers with the following skills or would like to g
 - Design
     - Research current user experience for 211 users
     - Design chatbot flow
-- Backend Engineering ([Node.js](https://nodejs.org/en/) || [Twilio](https://www.twilio.com/docs/usage/api) || [NLP w/ Python](https://medium.com/towards-artificial-intelligence/natural-language-processing-nlp-with-python-tutorial-for-beginners-1f54e610a1a0))
+- Backend Engineering ([Node.js](https://nodejs.org/en/)/[Express.js](https://expressjs.com/) || [Twilio](https://www.twilio.com/docs/usage/api) || [NLP w/ Python](https://medium.com/towards-artificial-intelligence/natural-language-processing-nlp-with-python-tutorial-for-beginners-1f54e610a1a0))
     - Set up SMS texting infrastructure
     - Implement chatbot flow
     - Add NLP to make bot more intelligent
