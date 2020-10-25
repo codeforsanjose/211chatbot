@@ -1,0 +1,31 @@
+{
+  "name": "resource-lookup",
+  "utterances": {
+    "en": [
+      "How do I do [something](fResource)",
+      "Where do I find [something](fResource)",
+      "How can I learn [something](fResource)",
+      "Where can I get [something](fResource)",
+      "Can you help me find [something](fResource)",
+      "I need help with [something](fResource)",
+      "How do I sign up for [something](fResource)",
+      "How do I apply for [something](fResource)",
+      "How do I find [something](fResource)",
+      "Tell me about [something](fResource)",
+      "I need [something](fResource)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "iumyd4b0jCIWsmV_mMFod",
+      "name": "fResource",
+      "entities": [
+        "fresource"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "builtin_text-v-G9tY",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "I'm sorry, I don't understand. Please state your request a different way, thanks!"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-22T21:11:46.424Z",
+    "modifiedOn": "2020-10-22T21:11:46.424Z"
+  },
+  {
+    "id": "builtin_text-y0O1cI",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "What resource are you looking for? Please enter it."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-22T22:18:58.639Z",
+    "modifiedOn": "2020-10-22T22:18:58.639Z"
+  },
+  {
+    "id": "builtin_text-C9g_tj",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here are some resources to consider for \n{{session.response}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-23T05:06:59.373Z",
+    "modifiedOn": "2020-10-23T22:11:58.277Z"
+  }
+]

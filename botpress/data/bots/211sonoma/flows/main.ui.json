@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": 60,
+        "y": 90
+      }
+    },
+    {
+      "id": "651019d71d",
+      "position": {
+        "x": 50,
+        "y": 235
+      }
+    },
+    {
+      "id": "026209417f",
+      "position": {
+        "x": 315,
+        "y": 210
+      }
+    },
+    {
+      "id": "a892e686b0",
+      "position": {
+        "x": 120,
+        "y": 340
+      }
+    },
+    {
+      "id": "3984b9cde3",
+      "position": {
+        "x": 25,
+        "y": 450
+      }
+    },
+    {
+      "id": "4b0e0af2de",
+      "position": {
+        "x": 385,
+        "y": 515
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "026209417f",
+      "sourcePort": "out0",
+      "target": "a892e686b0",
+      "points": [
+        {
+          "x": 521,
+          "y": 266
+        },
+        {
+          "x": 219,
+          "y": 333
+        }
+      ]
+    },
+    {
+      "source": "3984b9cde3",
+      "sourcePort": "out0",
+      "target": "4b0e0af2de",
+      "points": [
+        {
+          "x": 231,
+          "y": 542
+        },
+        {
+          "x": 484,
+          "y": 508
+        }
+      ]
+    },
+    {
+      "source": "a892e686b0",
+      "sourcePort": "out1",
+      "target": "3984b9cde3",
+      "points": [
+        {
+          "x": 326,
+          "y": 397
+        },
+        {
+          "x": 124,
+          "y": 443
+        }
+      ]
+    },
+    {
+      "source": "a892e686b0",
+      "sourcePort": "out0",
+      "target": "4b0e0af2de",
+      "points": [
+        {
+          "x": 326,
+          "y": 375
+        },
+        {
+          "x": 484,
+          "y": 508
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "026209417f",
+      "points": [
+        {
+          "x": 266,
+          "y": 125
+        },
+        {
+          "x": 414,
+          "y": 203
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out1",
+      "target": "651019d71d",
+      "points": [
+        {
+          "x": 266,
+          "y": 162
+        },
+        {
+          "x": 149,
+          "y": 228
+        }
+      ]
+    }
+  ]
+}

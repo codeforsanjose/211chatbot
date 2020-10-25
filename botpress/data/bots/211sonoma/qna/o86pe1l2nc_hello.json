@@ -1,0 +1,28 @@
+{
+  "id": "o86pe1l2nc_hello",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Welcome to 211 Sonoma chat bot! Ask me about services for Sonoma County.",
+        "Welcome to 211 Sonoma chat bot! Ask me about resources in Sonoma County."
+      ]
+    },
+    "questions": {
+      "en": [
+        "Hello",
+        "hello",
+        "Hi",
+        "Hola",
+        "hi",
+        "What's up"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

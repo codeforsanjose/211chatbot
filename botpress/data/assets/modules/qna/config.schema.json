@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "qnaDir": {
+      "default": "./qna",
+      "type": "string"
+    },
+    "textRenderer": {
+      "default": "#builtin_text",
+      "type": "string"
+    },
+    "qnaMakerKnowledgebase": {
+      "default": "botpress",
+      "type": "string"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "qnaDir",
+    "textRenderer"
+  ],
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
+

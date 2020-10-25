@@ -1,0 +1,235 @@
+{
+  "$schema": "../botpress.config.schema.json",
+  "httpServer": {
+    "host": "localhost",
+    "port": 3000,
+    "backlog": 0,
+    "bodyLimit": "10mb",
+    "cors": {
+      "enabled": true
+    },
+    "externalUrl": "",
+    "session": {
+      "enabled": false,
+      "maxAge": "1h"
+    },
+    "socketTransports": [
+      "websocket",
+      "polling"
+    ],
+    "headers": {
+      "X-Powered-By": "Botpress"
+    }
+  },
+  "dialog": {
+    "janitorInterval": "10s",
+    "timeoutInterval": "2m",
+    "sessionTimeoutInterval": "30m"
+  },
+  "logs": {
+    "dbOutput": {
+      "expiration": "2 weeks",
+      "janitorInterval": "30s"
+    },
+    "fileOutput": {
+      "enabled": false,
+      "folder": "./",
+      "maxFileSize": 10000
+    }
+  },
+  "modules": [
+    {
+      "location": "MODULES_ROOT/analytics",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/basic-skills",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/bot-improvement",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/broadcast",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/builtin",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/channel-messenger",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/channel-slack",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/channel-smooch",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/channel-teams",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/channel-telegram",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/channel-web",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/code-editor",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/examples",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/extensions",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/hitl",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/misunderstood",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/ndu",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/nlu-extras",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/nlu-testing",
+      "enabled": false
+    },
+    {
+      "location": "MODULES_ROOT/nlu",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/qna",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/testing",
+      "enabled": true
+    },
+    {
+      "location": "MODULES_ROOT/uipath",
+      "enabled": false
+    }
+  ],
+  "pro": {
+    "collaboratorsAuthStrategies": [
+      "default"
+    ],
+    "enabled": false,
+    "licenseKey": "paste your license key here",
+    "monitoring": {
+      "enabled": false,
+      "collectionInterval": "10s",
+      "retentionPeriod": "10d",
+      "janitorInterval": "15m"
+    },
+    "alerting": {
+      "enabled": false,
+      "watcherInterval": "10s",
+      "retentionPeriod": "10d",
+      "janitorInterval": "15m",
+      "rules": [
+        {}
+      ]
+    },
+    "externalAuth": {
+      "enabled": false,
+      "algorithms": [
+        "HS256"
+      ],
+      "publicKey": "insert key here",
+      "jwksClient": {}
+    },
+    "branding": {
+      "admin": {},
+      "studio": {}
+    }
+  },
+  "superAdmins": [
+    {
+      "email": "keith@sploids.com",
+      "strategy": "default"
+    }
+  ],
+  "sendUsageStats": true,
+  "dataRetention": {
+    "janitorInterval": "10m",
+    "policies": {}
+  },
+  "botCategories": [],
+  "allowServerReboot": true,
+  "fileUpload": {
+    "maxFileSize": "10mb",
+    "allowedMimeTypes": [
+      "image/jpeg",
+      "image/png",
+      "image/gif"
+    ]
+  },
+  "jwtToken": {
+    "duration": "6h",
+    "allowRefresh": true
+  },
+  "autoRevision": false,
+  "eventCollector": {
+    "enabled": true,
+    "collectionInterval": "1s",
+    "retentionPeriod": "30d",
+    "ignoredEventTypes": [
+      "visit",
+      "typing"
+    ],
+    "ignoredEventProperties": [],
+    "debuggerProperties": [
+      "ndu.triggers",
+      "ndu.predictions",
+      "nlu.predictions"
+    ]
+  },
+  "botMonitoring": {
+    "enabled": true,
+    "interval": "1m"
+  },
+  "authStrategies": {
+    "default": {
+      "type": "basic",
+      "allowSelfSignup": false,
+      "options": {
+        "maxLoginAttempt": 0
+      }
+    }
+  },
+  "showPoweredBy": true,
+  "noRepeatPolicy": false,
+  "additionalLanguages": [],
+  "actionServers": {
+    "local": {
+      "port": 4000,
+      "enabled": true
+    },
+    "remotes": []
+  },
+  "experimental": false,
+  "version": "12.10.9",
+  "appSecret": "QVccKEpkSQx5HsHi8uXZ00IRgkZ-lX_EyhAWeXa8"
+}

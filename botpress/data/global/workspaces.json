@@ -1,0 +1,110 @@
+[
+  {
+    "id": "default",
+    "name": "Default",
+    "audience": "external",
+    "bots": [
+      "211sonoma"
+    ],
+    "roles": [
+      {
+        "id": "admin",
+        "name": "admin.workspace.roles.default.administrator.name",
+        "description": "admin.workspace.roles.default.administrator.description",
+        "rules": [
+          {
+            "res": "*",
+            "op": "+r+w"
+          },
+          {
+            "res": "module.code-editor.global.main_config",
+            "op": "-r-w"
+          },
+          {
+            "res": "module.code-editor.global.module_config",
+            "op": "-r-w"
+          }
+        ]
+      },
+      {
+        "id": "dev",
+        "name": "admin.workspace.roles.default.developer.name",
+        "description": "admin.workspace.roles.default.developer.description",
+        "rules": [
+          {
+            "res": "*",
+            "op": "+r+w"
+          },
+          {
+            "res": "admin.*",
+            "op": "+r-w"
+          },
+          {
+            "res": "admin.collaborators.*",
+            "op": "-r"
+          },
+          {
+            "res": "module.code-editor.global.*",
+            "op": "+r-w"
+          },
+          {
+            "res": "module.code-editor.global.main_config",
+            "op": "-r-w"
+          },
+          {
+            "res": "module.code-editor.global.module_config",
+            "op": "-r-w"
+          }
+        ]
+      },
+      {
+        "id": "editor",
+        "name": "admin.workspace.roles.default.contentEditor.name",
+        "description": "admin.workspace.roles.default.contentEditor.description",
+        "rules": [
+          {
+            "res": "*",
+            "op": "+r"
+          },
+          {
+            "res": "admin.collaborators.*",
+            "op": "-r"
+          },
+          {
+            "res": "bot.flows",
+            "op": "+r-w"
+          },
+          {
+            "res": "bot.content",
+            "op": "+r+w"
+          },
+          {
+            "res": "module.qna",
+            "op": "+r+w"
+          },
+          {
+            "res": "module.nlu",
+            "op": "+r+w"
+          },
+          {
+            "res": "module.code-editor.*",
+            "op": "-r-w"
+          }
+        ]
+      }
+    ],
+    "defaultRole": "dev",
+    "adminRole": "admin",
+    "pipeline": [
+      {
+        "id": "prod",
+        "label": "Production",
+        "action": "promote_copy",
+        "reviewers": [],
+        "minimumApprovals": 0,
+        "reviewSequence": "parallel"
+      }
+    ],
+    "rolloutStrategy": "anonymous"
+  }
+]

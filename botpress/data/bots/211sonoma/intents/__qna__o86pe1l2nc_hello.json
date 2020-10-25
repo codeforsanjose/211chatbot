@@ -1,0 +1,17 @@
+{
+  "name": "__qna__o86pe1l2nc_hello",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Hello",
+      "hello",
+      "Hi",
+      "Hola",
+      "hi",
+      "What's up"
+    ]
+  },
+  "slots": []
+}

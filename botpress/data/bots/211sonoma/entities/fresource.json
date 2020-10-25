@@ -1,0 +1,244 @@
+{
+  "id": "fresource",
+  "name": "fResource",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Cal-Fresh",
+      "synonyms": [
+        "calfresh",
+        "cal-fresh",
+        "Calfresh",
+        "cal-Fresh"
+      ]
+    },
+    {
+      "name": "Medi-Cal",
+      "synonyms": [
+        "medi-cal",
+        "medical",
+        "mediCal",
+        "MediCal",
+        "Medical"
+      ]
+    },
+    {
+      "name": "Transportation",
+      "synonyms": [
+        "transportation"
+      ]
+    },
+    {
+      "name": "Dentist",
+      "synonyms": [
+        "dentist"
+      ]
+    },
+    {
+      "name": "Doctor",
+      "synonyms": [
+        "doctor"
+      ]
+    },
+    {
+      "name": "drugs",
+      "synonyms": [
+        "Drugs"
+      ]
+    },
+    {
+      "name": "prescription",
+      "synonyms": [
+        "Prescription"
+      ]
+    },
+    {
+      "name": "medicine",
+      "synonyms": [
+        "Medicine"
+      ]
+    },
+    {
+      "name": "Housing",
+      "synonyms": [
+        "housing"
+      ]
+    },
+    {
+      "name": "Rent",
+      "synonyms": [
+        "rent"
+      ]
+    },
+    {
+      "name": "Shelter",
+      "synonyms": [
+        "shelter"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    },
+    {
+      "name": "Pantries",
+      "synonyms": [
+        "pantries",
+        "Pantry",
+        "pantry"
+      ]
+    },
+    {
+      "name": "Relief",
+      "synonyms": [
+        "relief"
+      ]
+    },
+    {
+      "name": "Aid",
+      "synonyms": [
+        "aid"
+      ]
+    },
+    {
+      "name": "Homeless",
+      "synonyms": [
+        "homeless"
+      ]
+    },
+    {
+      "name": "Laundry",
+      "synonyms": [
+        "laundry"
+      ]
+    },
+    {
+      "name": "Bus",
+      "synonyms": [
+        "bus"
+      ]
+    },
+    {
+      "name": "Job",
+      "synonyms": [
+        "job"
+      ]
+    },
+    {
+      "name": "Employment",
+      "synonyms": [
+        "employment"
+      ]
+    },
+    {
+      "name": "Insurance",
+      "synonyms": [
+        "insurance"
+      ]
+    },
+    {
+      "name": "Clinic",
+      "synonyms": [
+        "clinic"
+      ]
+    },
+    {
+      "name": "Diploma",
+      "synonyms": [
+        "diploma"
+      ]
+    },
+    {
+      "name": "Literacy",
+      "synonyms": [
+        "literacy"
+      ]
+    },
+    {
+      "name": "Library",
+      "synonyms": [
+        "library"
+      ]
+    },
+    {
+      "name": "Computer",
+      "synonyms": [
+        "computer"
+      ]
+    },
+    {
+      "name": "Class",
+      "synonyms": [
+        "class"
+      ]
+    },
+    {
+      "name": "Legal",
+      "synonyms": [
+        "legal"
+      ]
+    },
+    {
+      "name": "Law",
+      "synonyms": [
+        "law"
+      ]
+    },
+    {
+      "name": "License",
+      "synonyms": [
+        "license"
+      ]
+    },
+    {
+      "name": "Benefits",
+      "synonyms": [
+        "benefits"
+      ]
+    },
+    {
+      "name": "Probation",
+      "synonyms": [
+        "probation"
+      ]
+    },
+    {
+      "name": "CalWorks",
+      "synonyms": [
+        "calworks",
+        "calWorks"
+      ]
+    },
+    {
+      "name": "Complaint",
+      "synonyms": [
+        "complaing"
+      ]
+    },
+    {
+      "name": "Grant",
+      "synonyms": [
+        "grant"
+      ]
+    },
+    {
+      "name": "Coronavirus",
+      "synonyms": [
+        "Covid-19",
+        "covid"
+      ]
+    },
+    {
+      "name": "Lunch",
+      "synonyms": [
+        "lunch"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

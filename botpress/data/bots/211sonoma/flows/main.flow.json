@@ -1,0 +1,96 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'resource-lookup'",
+          "node": "node-10bb"
+        },
+        {
+          "condition": "true",
+          "node": "node-6124"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "651019d71d",
+      "name": "node-6124",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-v-G9tY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "026209417f",
+      "name": "node-10bb",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-2b4a"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"rsrce\",\"value\":\"{{event.nlu.slots.fResource.value}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a892e686b0",
+      "name": "node-2b4a",
+      "next": [
+        {
+          "condition": "temp.rsrce",
+          "node": "node-5be0"
+        },
+        {
+          "condition": "true",
+          "node": "node-0fff"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3984b9cde3",
+      "name": "node-0fff",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-5be0"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-y0O1cI"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"rsrce\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "4b0e0af2de",
+      "name": "node-5be0",
+      "next": [],
+      "onEnter": [
+        "callResourceApi {\"resource\":\"temp.rsrce\"}",
+        "say #!builtin_text-C9g_tj"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
