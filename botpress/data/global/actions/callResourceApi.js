@@ -22,7 +22,7 @@
       // So just return that
       rData = data
     }
-    let oData = '**' + rsrc + '** \n' // put search term in bold
+    let oData = '' // start with empty string
     for (const property in rData) {
       if (rData[property]['title'].toString() && rData[property]['link'].toString()) {
         // both exist
@@ -33,7 +33,13 @@
         oData += '+ [' + rData[property]['link'].toString() + '](' + rData[property]['link'].toString() + ')\n'
       }
     }
-
+    if (oData.length == 0) {
+      // still empty
+      oData = 'Sorry, I could not find anything when I searched for ' + '**' + rsrc + '** \n'
+    } else {
+      oData = "Here's what I found for " + '**' + rsrc + '** \n' + oData
+      // put search term in bold
+    }
     // We assign the response to the session variable so we can use it later
     session.response = oData
   }

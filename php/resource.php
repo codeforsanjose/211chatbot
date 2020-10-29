@@ -28,6 +28,17 @@ class DB
 	function reqst($resource) 
 	{
 		$output = array();
+		$sql = "SELECT key_words.words AS words
+					FROM `other_words`, `key_words` 
+					WHERE other_words.word LIKE ?
+					AND other_words.other = key_words.ID 
+					LIMIT 1" ; // only want the first response
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute(array("%" . $resource . "%"));
+		if ($stmt->rowCount() > 0) {
+				$resource = $stmt->fetch(PDO::FETCH_ASSOC)['words'];
+		} // replace resource with word that's really in the DB
+		
 		$sql = "SELECT links.links AS links, links.title AS title
 			FROM `key_words`, `links`, `word_links`
 			WHERE key_words.words LIKE ?

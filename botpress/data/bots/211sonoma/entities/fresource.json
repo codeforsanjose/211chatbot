@@ -93,7 +93,8 @@
     {
       "name": "Homeless",
       "synonyms": [
-        "homeless"
+        "homeless",
+        "homelessness"
       ]
     },
     {
@@ -191,7 +192,8 @@
     {
       "name": "Complaint",
       "synonyms": [
-        "complaing"
+        "complaining",
+        "complain"
       ]
     },
     {
@@ -267,6 +269,76 @@
         "Application",
         "applications",
         "Applications"
+      ]
+    },
+    {
+      "name": "meal",
+      "synonyms": [
+        "meals",
+        "Meal",
+        "Meals"
+      ]
+    },
+    {
+      "name": "grocery",
+      "synonyms": [
+        "groceries",
+        "Grocery",
+        "Groceries"
+      ]
+    },
+    {
+      "name": "counseling",
+      "synonyms": [
+        "Counseling",
+        "counsel",
+        "Counsel"
+      ]
+    },
+    {
+      "name": "therapist",
+      "synonyms": [
+        "Therapist",
+        "therapy",
+        "Therapy"
+      ]
+    },
+    {
+      "name": "apartment",
+      "synonyms": [
+        "apartments",
+        "Apartment",
+        "Apartments"
+      ]
+    },
+    {
+      "name": "vouchers",
+      "synonyms": [
+        "voucher",
+        "Vouchers",
+        "Voucher"
+      ]
+    },
+    {
+      "name": "mental health",
+      "synonyms": [
+        "Mental Health"
+      ]
+    },
+    {
+      "name": "services",
+      "synonyms": [
+        "service",
+        "Services",
+        "Service"
+      ]
+    },
+    {
+      "name": "shower",
+      "synonyms": [
+        "Shower",
+        "showers",
+        "Showers"
       ]
     }
   ],

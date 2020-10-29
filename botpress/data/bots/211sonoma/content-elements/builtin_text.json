@@ -26,10 +26,10 @@
     "formData": {
       "markdown$en": true,
       "typing$en": true,
-      "text$en": "Here are some resources to consider for \n{{session.response}}"
+      "text$en": "{{session.response}}"
     },
     "createdBy": "admin",
     "createdOn": "2020-10-23T05:06:59.373Z",
-    "modifiedOn": "2020-10-23T22:11:58.277Z"
+    "modifiedOn": "2020-10-29T20:40:04.542Z"
   }
 ]
