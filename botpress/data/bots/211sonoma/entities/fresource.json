@@ -35,18 +35,6 @@
       ]
     },
     {
-      "name": "Doctor",
-      "synonyms": [
-        "doctor"
-      ]
-    },
-    {
-      "name": "drugs",
-      "synonyms": [
-        "Drugs"
-      ]
-    },
-    {
       "name": "prescription",
       "synonyms": [
         "Prescription"
@@ -157,12 +145,6 @@
       ]
     },
     {
-      "name": "Library",
-      "synonyms": [
-        "library"
-      ]
-    },
-    {
       "name": "Computer",
       "synonyms": [
         "computer"
@@ -171,19 +153,14 @@
     {
       "name": "Class",
       "synonyms": [
-        "class"
+        "class",
+        "classes"
       ]
     },
     {
       "name": "Legal",
       "synonyms": [
         "legal"
-      ]
-    },
-    {
-      "name": "Law",
-      "synonyms": [
-        "law"
       ]
     },
     {
@@ -233,7 +210,63 @@
     {
       "name": "Lunch",
       "synonyms": [
-        "lunch"
+        "lunch",
+        "Lunch?",
+        "lunch?"
+      ]
+    },
+    {
+      "name": "drug",
+      "synonyms": [
+        "drugs",
+        "Drug",
+        "Drugs",
+        "drug?",
+        "drugs?"
+      ]
+    },
+    {
+      "name": "support ",
+      "synonyms": [
+        "Support"
+      ]
+    },
+    {
+      "name": "libraries",
+      "synonyms": [
+        "Libraries",
+        "library",
+        "Library"
+      ]
+    },
+    {
+      "name": "school",
+      "synonyms": [
+        "School",
+        "schools",
+        "Schools"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "information",
+      "synonyms": [
+        "Information"
+      ]
+    },
+    {
+      "name": "application",
+      "synonyms": [
+        "Application",
+        "applications",
+        "Applications"
       ]
     }
   ],

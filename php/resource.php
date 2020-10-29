@@ -30,11 +30,11 @@ class DB
 		$output = array();
 		$sql = "SELECT links.links AS links, links.title AS title
 			FROM `key_words`, `links`, `word_links`
-			WHERE key_words.words = ?
+			WHERE key_words.words LIKE ?
 			AND key_words.ID = word_links.word
 			AND word_links.link = links.ID" ;
 		$stmt = $this->db->prepare($sql);
-		$stmt->execute(array($resource));
+		$stmt->execute(array("%" . $resource . "%"));
 		while($row  = $stmt->fetch(PDO::FETCH_ASSOC)) {
 			$tout = array();
        			$title = $row['title'];

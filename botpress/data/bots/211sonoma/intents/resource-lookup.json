@@ -2,17 +2,17 @@
   "name": "resource-lookup",
   "utterances": {
     "en": [
-      "How do I do [something](fResource)",
-      "Where do I find [something](fResource)",
-      "How can I learn [something](fResource)",
-      "Where can I get [something](fResource)",
-      "Can you help me find [something](fResource)",
-      "I need help with [something](fResource)",
-      "How do I sign up for [something](fResource)",
-      "How do I apply for [something](fResource)",
-      "How do I find [something](fResource)",
-      "Tell me about [something](fResource)",
-      "I need [something](fResource)"
+      "How do I do [screening](fResource) ?",
+      "Where do I find [support](fResource) ?",
+      "How can I learn [literacy](fResource) ?",
+      "Where can I get [housing](fResource) ?",
+      "Can you help me find  [libraries](fResource) ?",
+      "I need help with [school](fResource) ?",
+      "How do I sign up for [programs](fResource) ?",
+      "How do I apply for [calfresh](fResource) ?",
+      "How do I find [information](fResource) ?",
+      "Tell me about [application](fResource) ?",
+      "I need [shelter](fResource) ?"
     ]
   },
   "slots": [
