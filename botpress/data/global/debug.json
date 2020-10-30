@@ -1,0 +1,1 @@
+{"scopes":["bp:actions","bp:dialog","bp:hooks:after_bot_mount","bp:hooks:after_server_start","bp:qna:import","bp:hooks:after_event_processed","bp:hooks:after_incoming_middleware","bp:hooks:before_incoming_middleware","bp:hooks:before_outgoing_middleware","bp:hooks:before_suggestions_election"]}

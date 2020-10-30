@@ -31,5 +31,33 @@
     "createdBy": "admin",
     "createdOn": "2020-10-23T05:06:59.373Z",
     "modifiedOn": "2020-10-29T20:40:04.542Z"
+  },
+  {
+    "id": "builtin_text-m1USRL",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Would you like to ask me a question?",
+      "variations$en": [
+        "Are you there? Do you have a question for me?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-30T16:16:16.916Z",
+    "modifiedOn": "2020-10-30T16:16:16.916Z"
+  },
+  {
+    "id": "builtin_text-Ke-xnL",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "I haven't heard from you in a while, is there something I can help you with?",
+      "variations$en": [
+        "If you're still there, please ask me a question."
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-30T20:29:39.412Z",
+    "modifiedOn": "2020-10-30T20:29:39.412Z"
   }
 ]

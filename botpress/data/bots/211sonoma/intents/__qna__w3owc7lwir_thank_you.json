@@ -1,0 +1,15 @@
+{
+  "name": "__qna__w3owc7lwir_thank_you",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Thank you.",
+      "Thanks.",
+      "You're the best!",
+      "That's just what I needed."
+    ]
+  },
+  "slots": []
+}
