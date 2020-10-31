@@ -1,4 +1,4 @@
-//CHECKSUM:34111792bbba754857ce0a61c6acae517246a8c4ecef7dc3f0cd82a24fdb938d
+//CHECKSUM:8cfdfc4d2bbc13b821641f3644f4d59d546353410544bf8e3b533257d2a34b4f
 const axios = require('axios')
 
 /**
@@ -9,7 +9,7 @@ const axios = require('axios')
 const updateContexts = async intentName => {
   const botId = event.botId
   const axiosConfig = await bp.http.getAxiosConfigForBot(botId, { localUrl: true })
-  const { data } = await axios.get(`/mod/nlu/intents/${intentName}`, axiosConfig)
+  const { data } = await axios.get(`/nlu/intents/${intentName}`, axiosConfig)
 
   const nluContexts = data.contexts.map(context => {
     return {

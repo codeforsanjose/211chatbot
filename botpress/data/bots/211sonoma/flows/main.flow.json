@@ -91,6 +91,29 @@
       ],
       "onReceive": null,
       "type": "standard"
+    },
+    {
+      "id": "2cab146e4b",
+      "name": "timeout",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-8425"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "a504366693",
+      "name": "node-8425",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-Ke-xnL"
+      ],
+      "onReceive": null,
+      "type": "standard"
     }
   ]
 }
