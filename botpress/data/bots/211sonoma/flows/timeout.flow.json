@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "timeoutAll",
+  "nodes": [
+    {
+      "id": "timeoutAll",
+      "name": "timeoutAll",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-Ke-xnL"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -23,8 +23,8 @@
   },
   "dialog": {
     "janitorInterval": "10s",
-    "timeoutInterval": "2m",
-    "sessionTimeoutInterval": "30m"
+    "timeoutInterval": "1m",
+    "sessionTimeoutInterval": "2m"
   },
   "logs": {
     "dbOutput": {

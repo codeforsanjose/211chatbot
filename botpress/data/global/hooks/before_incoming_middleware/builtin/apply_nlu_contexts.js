@@ -6,3 +6,20 @@ if (event.state && event.state.session && event.state.session.nluContexts && eve
     includedContexts: event.state.session.nluContexts.map(x => x.context)
   })
 }
+// Catch the event
+if (event.type === 'proactive-trigger') {
+  const eventDestination = {
+    channel: event.channel,
+    target: event.target,
+    botId: event.botId,
+    threadId: event.threadId
+  }
+
+  // Skip event processing
+  event.setFlag(bp.IO.WellKnownFlags.SKIP_DIALOG_ENGINE, true)
+
+  // Make the bot respond with custom content instead
+  bp.cms.renderElement('builtin_text', { text: "Welcome to the 211 Sonoma bot! \nWhat would you like to know?", typing: true }, eventDestination).then(payloads => {
+    bp.events.replyToEvent(event, payloads)
+  })
+}

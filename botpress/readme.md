@@ -1,12 +1,16 @@
 **BotPress Readme:**
 
 This directory contains the data directory of a development BotPress
-installation. There is also an export file, .
+installation. There is also an export file,
+bot\_211sonoma\_1604098642133.tgz
 
 The chat bot, 211chatbot, accesses an SQL database found in the
 web\_scrape directory in this repository. (Note, the words in
 "key\_words" have been converted to all lower case to make matching
 easier.)
+
+**Update 12/2/20: Please use the new sql files in the web\_scrape
+directory.**
 
 Key parts of the repository:
 
@@ -21,7 +25,7 @@ Key parts of the repository:
 
 How to install the bot and get it working;
 
-1.  Install botpress here: [https://botpress.com/download]()
+1.  Install botpress here: https://botpress.com/download
 
 2.  There needs to be a database on a server. The SQL files are in the
     web\_scrape directory. Create a database, I used the name

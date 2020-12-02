@@ -1,0 +1,16 @@
+{
+  "name": "__qna__5pcwubrmxo_no",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "No",
+      "Nope",
+      "I'm through.",
+      "That's all.",
+      "I'm done."
+    ]
+  },
+  "slots": []
+}

@@ -2,7 +2,15 @@
   "locked": false,
   "disabled": false,
   "private": false,
-  "details": {},
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "termsConditions": "",
+    "emailAddress": "",
+    "avatarUrl": "/api/v1/bots/211sonoma/media/koy135rdf6d43advxzh3-av.png",
+    "coverPictureUrl": "/api/v1/bots/211sonoma/media/cu0zinf7pzofx84xlsiv-about-us-temp.jpg",
+    "privacyPolicy": ""
+  },
   "$schema": "../../bot.config.schema.json",
   "description": "",
   "active": true,
@@ -24,7 +32,8 @@
     ]
   },
   "dialog": {
-    "timeoutInterval": "5m"
+    "timeoutInterval": "1m",
+    "janitorInterval": "10s" 
   },
   "logs": {
     "expiration": "1 week"

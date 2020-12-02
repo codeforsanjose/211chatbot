@@ -1,0 +1,27 @@
+{
+  "id": "5pcwubrmxo_no",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Happy to help! Let me know if there's anything else you need.",
+        "Have a nice day! Please come back if you need anything else."
+      ]
+    },
+    "questions": {
+      "en": [
+        "No",
+        "Nope",
+        "I'm through.",
+        "That's all.",
+        "I'm done."
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}
