@@ -1,4 +1,4 @@
-//CHECKSUM:c07399b32cadbb6ed2344e1dfc95a6517008e3f9b4e4d4b13edf802c4e3ed4f4
+//CHECKSUM:b36a7620453588ade2ea28318667ea97b85a9847f01e5316804e7072b98a2883
 const _ = require('lodash')
 const nodemailer = require('nodemailer')
 const Promise = require('bluebird')
@@ -19,8 +19,8 @@ const getTransport = async botId => {
   return config.transportConnectionString
 }
 
-const extractTextFromPayloads = payloads => {
-  const text = _.get(payloads.find(p => p.type === 'text'), 'text', '')
+const extractTextFromPayloads = (payloads, text_msg_type='text') => {
+  const text = _.get(payloads.find(p => p.type === text_msg_type), 'text', '')
   return text.replace('(missing translation) ', '').replace(/([A-Z0-9_ -]+: )/gi, '')
 }
 
@@ -40,8 +40,9 @@ const sendEmail = async () => {
     const renderedSubject = await bp.cms.renderElement('!' + args.subjectElement, params, event)
     const renderedContent = await bp.cms.renderElement('!' + args.contentElement, params, event)
 
-    const subject = extractTextFromPayloads(renderedSubject)
-    const content = extractTextFromPayloads(renderedContent)
+    const text_msg_type = event.channel === 'teams' ? 'message' : 'text'
+    const subject = extractTextFromPayloads(renderedSubject, text_msg_type)
+    const content = extractTextFromPayloads(renderedContent, text_msg_type)
 
     const mailOptions = {
       from: args.fromAddress,

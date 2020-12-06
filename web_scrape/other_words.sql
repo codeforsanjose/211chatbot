@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 30, 2020 at 09:20 PM
+-- Generation Time: Dec 06, 2020 at 05:07 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -38,32 +38,22 @@ CREATE TABLE `other_words` (
 --
 
 INSERT INTO `other_words` (`word`, `other`) VALUES
-('calfresh', 118),
-('medical', 121),
-('house', 314),
+('calfresh', 117),
+('house', 563),
 ('houses', 314),
-('rent', 314),
-('rental', 314),
-('pantry', 322),
-('homelessness', 329),
-('class', 377),
-('benefit', 390),
-('complain', 556),
-('complaining', 556),
-('covid-19', 572),
-('covid', 572),
-('drugs', 360),
-('library', 373),
-(NULL, 373),
-('schools', 368),
-('applications', 2),
-('rents', 314),
-('apartment', 314),
-('apartments', 314),
-('meal', 320),
-('meals', 320),
-('grocery', 320),
-('groceries', 320);
+('rental', 455),
+('homelessness', 563),
+('class', 290),
+('complain', 571),
+('complaining', 571),
+('covid-19', 17),
+('schools', 290),
+('applications', 451),
+('rents', 455),
+('apartment', 455),
+('apartments', 455),
+('meal', 589),
+('grocery', 577);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

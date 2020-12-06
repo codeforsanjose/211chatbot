@@ -14,7 +14,7 @@
   "$schema": "../../bot.config.schema.json",
   "description": "",
   "active": true,
-  "version": "12.10.9",
+  "version": "12.14.1",
   "author": "Botpress, Inc.",
   "license": "AGPL-3.0",
   "imports": {
@@ -33,7 +33,7 @@
   },
   "dialog": {
     "timeoutInterval": "1m",
-    "janitorInterval": "10s" 
+    "janitorInterval": "10s"
   },
   "logs": {
     "expiration": "1 week"

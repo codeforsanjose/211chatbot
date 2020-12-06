@@ -25,6 +25,11 @@
       "type": "array",
       "items": {}
     },
+    "modelCacheSize": {
+      "description": "Maximum allowed model cache size",
+      "default": "850mb",
+      "type": "string"
+    },
     "$schema": {
       "type": "string"
     }
@@ -34,6 +39,7 @@
     "ducklingEnabled",
     "ducklingURL",
     "languageSources",
+    "modelCacheSize",
     "preloadModels"
   ],
   "$schema": "http://json-schema.org/draft-07/schema#"

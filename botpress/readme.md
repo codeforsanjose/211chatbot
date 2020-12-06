@@ -2,7 +2,7 @@
 
 This directory contains the data directory of a development BotPress
 installation. There is also an export file,
-bot\_211sonoma\_1604098642133.tgz
+bot\_211sonoma\_1607298261301.tgz
 
 The chat bot, 211chatbot, accesses an SQL database found in the
 web\_scrape directory in this repository. (Note, the words in
@@ -17,7 +17,8 @@ Key parts of the repository:
 1.  The main flow of the bot is in bots/211sonoma/flows/main.flow.json
 
 2.  The javascript "action" that calls the database to get the links is:
-    global/actions/callResourceApi.js
+    global/actions/callResourceApi.js (**Note**: this has been updated
+    to call a webservice on another server, not your local machine.)
 
 3.  There is a directory (assets/modules/qna) which sounds like it
     should have the "Q&A" from the studio, but I haven't found where
@@ -25,7 +26,10 @@ Key parts of the repository:
 
 How to install the bot and get it working;
 
-1.  Install botpress here: https://botpress.com/download
+1.  Install botpress here: <https://botpress.com/download>\
+    **Note**: Steps 2, 3 & 4 below are not needed with the current
+    javascript file as it references these files on another server, not
+    your machine.
 
 2.  There needs to be a database on a server. The SQL files are in the
     web\_scrape directory. Create a database, I used the name
@@ -59,3 +63,9 @@ How to install the bot and get it working;
 
 9.  Select "211sonoma" as the bot and it should open the BotPress
     studio. Launch the emulator and you should have the functioning bot.
+
+The bot is now on Heroku at [https://young-oasis-43466.herokuapp.com/]()
+
+You can access this bot from a web interface at
+[http://cfsj211chat.tk](http://cfsj211chat.tk/) [The index file used is
+in this directory -- index.html.]()
