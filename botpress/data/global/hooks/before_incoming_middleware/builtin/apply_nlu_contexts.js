@@ -19,7 +19,13 @@ if (event.type === 'proactive-trigger') {
   event.setFlag(bp.IO.WellKnownFlags.SKIP_DIALOG_ENGINE, true)
 
   // Make the bot respond with custom content instead
-  bp.cms.renderElement('builtin_text', { text: "Welcome to the 211 Sonoma bot! \nWhat would you like to know?", typing: true }, eventDestination).then(payloads => {
+  if (eventDestination.botId == "211sonoma") {
+	bp.cms.renderElement('builtin_text', { text: "Welcome to the 211 Sonoma bot! \nWhat would you like to know?", typing: true }, eventDestination).then(payloads => {
+		bp.events.replyToEvent(event, payloads)
+	})
+  } else if (eventDestination.botId == "ctv") {
+	bp.cms.renderElement('builtin_text', { text: "Welcome to CTV's virtual assistant! \nWhat can I help you with today?", typing: true }, eventDestination).then(payloads => {
     bp.events.replyToEvent(event, payloads)
-  })
+	})
+  }
 }

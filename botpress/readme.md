@@ -64,8 +64,61 @@ How to install the bot and get it working;
 9.  Select "211sonoma" as the bot and it should open the BotPress
     studio. Launch the emulator and you should have the functioning bot.
 
-The bot is now on Heroku at [https://young-oasis-43466.herokuapp.com/]()
+The bot is now on Heroku at https://young-oasis-43466.herokuapp.com/
 
 You can access this bot from a web interface at
-[http://cfsj211chat.tk](http://cfsj211chat.tk/) [The index file used is
-in this directory -- index.html.]()
+[http://cfsj211chat.tk](http://cfsj211chat.tk/) The index file used is
+in this directory -- index.html.
+
+**Heroku installation instructions:**
+
+The botpress instructions are here:
+[https://botpress.com/docs/advanced/hosting\#heroku]()
+
+First you need a Heroku account and the Heroku CLI, see here: Install
+the Heroku CLI by following [these
+instructions](https://devcenter.heroku.com/articles/heroku-cli).
+
+Note that the version of botpress used to create your 'data' directory
+must match the version installed in Heroku. This is version v12\_14\_1
+in the Dockerfile in this directory.
+
+You'll need Docker running on your computer. Installation instructions
+for your OS can be found here:
+[https://docs.docker.com/engine/install/]()
+
+As you see in this directory, you need the following:
+
+-   A Docker file
+
+-   The data directory from the Botpress instance.
+
+The steps for creating your Heroku Botpress instance the first time are:
+
+1.  heroku login
+
+2.  heroku create \#\# Note, save the instance name!
+
+3.  heroku container:login
+
+4.  heroku container:push web \--(your instance name)
+
+5.  heroku container:release web \--(your instance name)
+
+After you've successfully pushed the application to Heroku, login to
+your instance:
+
+https://yourinstancename).herokuapp.com/admin/login/default
+
+The first time you login you can create your admin account / password.
+This is where you can modify your bot.
+
+If you need to push your bot again, these are the commands:
+
+1.  heroku login
+
+2.  heroku container:login
+
+3.  heroku container:push web \--(your instance name)
+
+4.  heroku container:release web \--(your instance name)

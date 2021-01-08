@@ -1,0 +1,13 @@
+{
+  "name": "__qna__ye2qp8uzge_what_are_you",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "What are you?",
+      "Who are you?"
+    ]
+  },
+  "slots": []
+}

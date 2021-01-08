@@ -1,0 +1,29 @@
+{
+  "id": "w3dfzyihxa_goodbye",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Thanks for stopping by! I hope to see you again soon.",
+        "It was nice chatting with you, I hope to see you soon.",
+        "Goodbye! See you soon!"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Goodbye",
+        "Goodby",
+        "Good bye",
+        "Good by",
+        "See ya",
+        "Later"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

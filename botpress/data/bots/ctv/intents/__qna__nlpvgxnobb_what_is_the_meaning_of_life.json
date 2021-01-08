@@ -1,0 +1,13 @@
+{
+  "name": "__qna__nlpvgxnobb_what_is_the_meaning_of_life",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "What is the meaning of life?",
+      "Why are we here?"
+    ]
+  },
+  "slots": []
+}
