@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {
+      "id": "entry2",
+      "position": {
+        "x": 50,
+        "y": 250
+      }
+    },
+    {
+      "id": "timeoutAll",
+      "position": {
+        "x": 300,
+        "y": 250
+      }
+    }
+  ],
+  "links": []
+}

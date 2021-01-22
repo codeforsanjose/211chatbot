@@ -1,0 +1,28 @@
+{
+  "id": "o86pe1l2nc_hello",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Welcome to CTV's virtual assistant! Ask me anything about CTV.",
+        "Welcome to CTV's virtual assistant! Ask me about CTV and I'll try and help."
+      ]
+    },
+    "questions": {
+      "en": [
+        "Hello",
+        "hello",
+        "Hi",
+        "Hola",
+        "hi",
+        "What's up"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "",
+    "termsConditions": "",
+    "emailAddress": "",
+    "avatarUrl": "/api/v1/bots/ctv/media/jd7z9ih0k9s4v1lsfioc-ctvbluelogo.png",
+    "coverPictureUrl": "/api/v1/bots/ctv/media/eos3lu4o1s4falfj0pdp-ctvbluelogo.png",
+    "privacyPolicy": ""
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "Chatbot for Community Television's website.",
+  "active": true,
+  "version": "12.14.1",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_card",
+      "builtin_carousel",
+      "builtin_image",
+      "builtin_single-choice",
+      "builtin_text",
+      "dropdown"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "ctv",
+  "name": "CTV",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2020-12-17T03:48:03.850Z",
+      "promoted_by": "keith@sploids.com"
+    }
+  }
+}

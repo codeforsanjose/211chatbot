@@ -1,0 +1,15 @@
+{
+  "name": "__qna__lz4myecnjb_how_does_this_work",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "How does this work",
+      "How do I use this",
+      "What is this",
+      "Now what"
+    ]
+  },
+  "slots": []
+}

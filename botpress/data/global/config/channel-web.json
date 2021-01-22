@@ -5,13 +5,13 @@
   "uploadsS3Region": "eu-west-1",
   "uploadsS3AWSAccessKey": "your-aws-key-name",
   "uploadsS3AWSAccessSecret": "secret-key",
-  "startNewConvoOnTimeout": false,
+  "startNewConvoOnTimeout": true,
   "recentConversationLifetime": "6 hours",
   "maxMessageLength": 360,
-  "showBotInfoPage": false,
+  "showBotInfoPage": true,
   "fileUploadPath": "./uploads",
   "infoPage": {
-    "enabled": false
+    "enabled": true
   },
   "maxMessagesHistory": 20,
   "security": {

@@ -1,0 +1,15 @@
+.bpw-widget-btn {
+  background-image: url("./images/ctvboticon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  width: 64px;
+  height: 64px;
+}
+.bpw-widget-btn>* {
+  display: none;
+}
+.bpw-floating-button {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+  /* border: 1px solid #3C4858; */
+}

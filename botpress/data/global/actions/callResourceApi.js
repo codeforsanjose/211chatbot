@@ -10,7 +10,7 @@
     let rsrc = temp.rsrce.toLowerCase() // all lower case to make search easier
     //if (rsrc[rsrc.length - 1] == '?') rsrc = rsrc.substring(0, rsrc.length - 1) // remove ? from end of string
     // rsrc is the search term
-    const { data } = await axios.get('http://localhost/request.php?command=getResource&resource=' + rsrc)
+    const { data } = await axios.get('https://sccurrents.org/211sonoma/request.php?command=getResource&resource=' + rsrc)
 
     // now we change the returns JSON into an array if necessary
     let rData = new Object()

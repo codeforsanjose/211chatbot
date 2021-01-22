@@ -1,0 +1,24 @@
+{
+  "id": "nlpvgxnobb_what_is_the_meaning_of_life",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "42.",
+        "I don't know."
+      ]
+    },
+    "questions": {
+      "en": [
+        "What is the meaning of life?",
+        "Why are we here?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

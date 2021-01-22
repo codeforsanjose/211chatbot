@@ -15,7 +15,7 @@ The webscrape.py file does the following:
 4.  Remove all duplicate words
 
 5.  Remove common words that won't help with search for meaning:\
-    {\"About\",\"Us\",\"Nosotros\",\"para\",\"Sonoma\",\"County\",\"in\",\"de\",\"en\",\"la\",\"un\",\"una\",\"su\",\"sus\",\"y\",\"&\",\"with\",\"[[www.211sonoma.org]{.ul}](http://www.211sonoma.org/)[\",\"of\",\"the\",\"2-1-1\",\"and\",\"for\",\"of\",\"para\",\"Click\",\"here\",\"\",\"http:\",\"www.211.org\",\"-\",\"del\",\"el\",\"sin\",\"al\",\"con\",\"los\",\"las\",\"a\",\"El\",\"por\",\"by\",\"e\",\"or\",\"at\",\"o\",\"to\",\"it\",\"A\",\"as\"}\
+    {\"About\",\"Us\",\"Nosotros\",\"para\",\"Sonoma\",\"County\",\"in\",\"de\",\"en\",\"la\",\"un\",\"una\",\"su\",\"sus\",\"y\",\"&\",\"with\",\"[[www.211sonoma.org]{.underline}](http://www.211sonoma.org/)[\",\"of\",\"the\",\"2-1-1\",\"and\",\"for\",\"of\",\"para\",\"Click\",\"here\",\"\",\"http:\",\"www.211.org\",\"-\",\"del\",\"el\",\"sin\",\"al\",\"con\",\"los\",\"las\",\"a\",\"El\",\"por\",\"by\",\"e\",\"or\",\"at\",\"o\",\"to\",\"it\",\"A\",\"as\"}\
     ]()
 
 6.  Remove duplicate links.
@@ -35,10 +35,10 @@ words. (This example looked for all links which had the word "Lunch"
 referenced.)
 
 SELECT links.links AS links, links.title AS title\
-FROM \`key_words\`, \`links\`, \`word_links\`\
-WHERE key_words.words = \"Lunch\"\
-AND key_words.ID = word_links.word\
-AND word_links.link = links.ID
+FROM \`key\_words\`, \`links\`, \`word\_links\`\
+WHERE key\_words.words = \"Lunch\"\
+AND key\_words.ID = word\_links.word\
+AND word\_links.link = links.ID
 
 And here are the example results:
 

@@ -1,4 +1,4 @@
-//CHECKSUM:f90a2889f7a3904e57a73988c1edc7291c377249e1f562cfffd9d05e2479c2fe
+//CHECKSUM:390996e33c30b94b6e366cf1ea5c8a4aaf5079943a340c019be973f609d19735
 const base = require('./_base')
 
 function render(data) {
@@ -61,6 +61,8 @@ function renderElement(data, channel) {
     return renderSlack(data)
   } else if (channel === 'smooch') {
     return [data]
+  } else if (channel === 'teams') {
+    return [{ ...data, type: 'dropdown_choice' }]
   }
 
   return []

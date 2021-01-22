@@ -1,0 +1,26 @@
+{
+  "id": "lz4myecnjb_how_does_this_work",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "Please enter your request as a question.",
+        "Please ask me for what you need."
+      ]
+    },
+    "questions": {
+      "en": [
+        "How does this work",
+        "How do I use this",
+        "What is this",
+        "Now what"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

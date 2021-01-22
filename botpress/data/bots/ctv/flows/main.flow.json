@@ -1,0 +1,89 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name===\"question\"",
+          "node": "node-06db"
+        },
+        {
+          "condition": "true",
+          "node": "node-271b"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "7d22e44893",
+      "name": "node-271b",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-8MnRFD"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "be9a32536f",
+      "name": "node-06db",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-4b64"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"srvc\",\"value\":\"{{event.nlu.slots.serviceq.value}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3aeb774700",
+      "name": "node-4b64",
+      "next": [
+        {
+          "condition": "temp.srvc",
+          "node": "node-69a4"
+        },
+        {
+          "condition": "true",
+          "node": "node-1d55"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ab3d879243",
+      "name": "node-69a4",
+      "next": [],
+      "onEnter": [
+        "getAnswer {\"service\":\"temp.srvc\"}",
+        "say #!builtin_text-VVpSot"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "1d639671fe",
+      "name": "node-1d55",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-8MnRFD"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
