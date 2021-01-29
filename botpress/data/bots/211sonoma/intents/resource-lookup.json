@@ -12,7 +12,7 @@
       "How do I apply for [calfresh](fResource_calfresh) ?",
       "How do I find [information](fResource_information) ?",
       "Tell me about [application](fResource_application) .",
-      "I need [shelter](fResource) .",
+      "I need [shelter](fResource_shelter) .",
       "Where are they giving [food](fResource_food) ?",
       "How can I find [pantry](fResource_pantry) ?",
       "Please help me get some [food](fResource_food) .",
@@ -28,14 +28,14 @@
       "Do you have support [services](fResource_services) ?",
       "How do I apply for [housing](fResource_housing) near me ?",
       "Can I get temporary [housing](fResource_housing) ?",
-      "How long can you live at a [shelter](fResource) ?",
-      "I need [shelter](fResource) near me .",
+      "How long can you live at a [shelter](fResource_shelter) ?",
+      "I need [shelter](fResource_shelter) near me .",
       "How do I find [pantries](fResource) in my area ?",
       "Can you give me a list of low-income [apartments](fResource) ?",
       "Where to find [food](fResource_food) in Sonoma County ?",
       "Can you give me some options for low-cost [counseling](fResource) ?",
       "Where can I sleep if I'm [homeless](fResource_homeless) ?",
-      "How can I get emergency [shelter](fResource) ?"
+      "How can I get emergency [shelter](fResource_shelter) ?"
     ]
   },
   "slots": [
