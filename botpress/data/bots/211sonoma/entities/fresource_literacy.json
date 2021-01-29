@@ -1,0 +1,55 @@
+{
+  "id": "fresource_literacy",
+  "name": "fResource_literacy",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Literacy",
+      "synonyms": [
+        "literacy"
+      ]
+    },
+    {
+      "name": "Computer",
+      "synonyms": [
+        "computer"
+      ]
+    },
+    {
+      "name": "libraries",
+      "synonyms": [
+        "Libraries",
+        "library",
+        "Library"
+      ]
+    },
+    {
+      "name": "school",
+      "synonyms": [
+        "School",
+        "schools",
+        "Schools"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "services",
+      "synonyms": [
+        "service",
+        "Services",
+        "Service"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}
