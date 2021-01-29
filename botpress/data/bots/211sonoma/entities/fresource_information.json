@@ -1,0 +1,65 @@
+{
+  "id": "fresource_information",
+  "name": "fResource_information",
+  "type": "list",
+  "occurrences": [
+  {
+      "name": "Lunch",
+      "synonyms": [
+        "lunch",
+        "Lunch?",
+        "lunch?"
+      ]
+    },
+    {
+      "name": "Shelter",
+      "synonyms": [
+        "shelter"
+      ]
+    },
+    {
+      "name": "Housing",
+      "synonyms": [
+        "housing"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "school",
+      "synonyms": [
+        "School",
+        "schools",
+        "Schools"
+      ]
+    },
+    {
+      "name": "Employment",
+      "synonyms": [
+        "employment"
+      ]
+    },
+    {
+      "name": "information",
+      "synonyms": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}
