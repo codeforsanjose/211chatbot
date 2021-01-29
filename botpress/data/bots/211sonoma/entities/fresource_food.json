@@ -1,0 +1,118 @@
+{
+  "id": "fresource_food",
+  "name": "fResource_food",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Lunch",
+      "synonyms": [
+        "lunch",
+        "Lunch?",
+        "lunch?"
+      ]
+    },
+    {
+      "name": "grocery",
+      "synonyms": [
+        "groceries",
+        "Grocery",
+        "Groceries"
+      ]
+    },
+    {
+      "name": "Shelter",
+      "synonyms": [
+        "shelter"
+      ]
+    },
+    {
+      "name": "Housing",
+      "synonyms": [
+        "housing"
+      ]
+    },
+    {
+      "name": "Job",
+      "synonyms": [
+        "job"
+      ]
+    },
+    {
+      "name": "Cal-Fresh",
+      "synonyms": [
+        "calfresh",
+        "cal-fresh",
+        "Calfresh",
+        "cal-Fresh"
+      ]
+    },
+    {
+      "name": "Transportation",
+      "synonyms": [
+        "transportation"
+      ]
+    },
+    {
+      "name": "Medi-Cal",
+      "synonyms": [
+        "medi-cal",
+        "medical",
+        "mediCal",
+        "MediCal",
+        "Medical"
+      ]
+    },
+    {
+      "name": "school",
+      "synonyms": [
+        "School",
+        "schools",
+        "Schools"
+      ]
+    },
+    {
+      "name": "meal",
+      "synonyms": [
+        "meals",
+        "Meal",
+        "Meals"
+      ]
+    },
+    {
+      "name": "information",
+      "synonyms": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Rent",
+      "synonyms": [
+        "rent"
+      ]
+    },
+    {
+      "name": "Relief",
+      "synonyms": [
+        "relief"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    },
+    {
+      "name": "Pantries",
+      "synonyms": [
+        "pantries",
+        "Pantry",
+        "pantry"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}
