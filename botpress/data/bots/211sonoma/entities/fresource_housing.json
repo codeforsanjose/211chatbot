@@ -1,0 +1,103 @@
+{
+  "id": "fresource_housing",
+  "name": "fResource_housing",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "License",
+      "synonyms": [
+        "license"
+      ]
+    },
+    {
+      "name": "Housing",
+      "synonyms": [
+        "housing"
+      ]
+    },
+       {
+      "name": "Job",
+      "synonyms": [
+        "job"
+      ]
+    },
+    {
+      "name": "Homeless",
+      "synonyms": [
+        "homeless",
+        "homelessness"
+      ]
+    },
+    {
+      "name": "Grant",
+      "synonyms": [
+        "grant"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "Medi-Cal",
+      "synonyms": [
+        "medi-cal",
+        "medical",
+        "mediCal",
+        "MediCal",
+        "Medical"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "CalWorks",
+      "synonyms": [
+        "calworks",
+        "calWorks"
+      ]
+    },
+    {
+      "name": "Employment",
+      "synonyms": [
+        "employment"
+      ]
+    },
+   {
+      "name": "information",
+      "synonyms": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Medi-Cal",
+      "synonyms": [
+        "medi-cal",
+        "medical",
+        "mediCal",
+        "MediCal",
+        "Medical"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}
