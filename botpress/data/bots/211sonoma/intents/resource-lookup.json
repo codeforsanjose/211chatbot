@@ -24,7 +24,7 @@
       "How can I get a free [meal](fResource) ?",
       "I need help to find free [food](fResource_food) .",
       "Where can I find a free [therapist](fResource) ?",
-      "Where do homeless people [shower](fResource) ?",
+      "Where do homeless people [shower](fResource_homeless) ?",
       "Do you have support [services](fResource) ?",
       "How do I apply for [housing](fResource) near me ?",
       "Can I get temporary [housing](fResource) ?",
@@ -34,7 +34,7 @@
       "Can you give me a list of low-income [apartments](fResource) ?",
       "Where to find [food](fResource_food) in Sonoma County ?",
       "Can you give me some options for low-cost [counseling](fResource) ?",
-      "Where can I sleep if I'm [homeless](fResource) ?",
+      "Where can I sleep if I'm [homeless](fResource_homeless) ?",
       "How can I get emergency [shelter](fResource) ?"
     ]
   },
