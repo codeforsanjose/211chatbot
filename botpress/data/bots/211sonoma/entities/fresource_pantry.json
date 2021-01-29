@@ -1,0 +1,56 @@
+{
+  "id": "fresource_pantry",
+  "name": "fResource_pantry",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Cal-Fresh",
+      "synonyms": [
+        "calfresh",
+        "cal-fresh",
+        "Calfresh",
+        "cal-Fresh"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    },
+    {
+      "name": "Pantries",
+      "synonyms": [
+        "pantries",
+        "Pantry",
+        "pantry"
+      ]
+    },
+    {
+      "name": "Relief",
+      "synonyms": [
+        "relief"
+      ]
+    },
+    {
+      "name": "meal",
+      "synonyms": [
+        "meals",
+        "Meal",
+        "Meals"
+      ]
+    },
+    {
+      "name": "grocery",
+      "synonyms": [
+        "groceries",
+        "Grocery",
+        "Groceries"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

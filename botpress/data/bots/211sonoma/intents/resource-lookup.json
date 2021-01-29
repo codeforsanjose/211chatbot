@@ -14,7 +14,7 @@
       "Tell me about [application](fResource_application) .",
       "I need [shelter](fResource) .",
       "Where are they giving [food](fResource_food) ?",
-      "How can I find [pantry](fResource) ?",
+      "How can I find [pantry](fResource_pantry) ?",
       "Please help me get some [food](fResource_food) .",
       "Can I see a [counselor](fResource) ?",
       "Do you know where to find [counseling](fResource) ?",
