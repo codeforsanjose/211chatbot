@@ -1,0 +1,87 @@
+{
+  "id": "fresource_school",
+  "name": "fResource_school",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Lunch",
+      "synonyms": [
+        "lunch",
+        "Lunch?",
+        "lunch?"
+      ]
+    },
+    {
+      "name": "Literacy",
+      "synonyms": [
+        "literacy"
+      ]
+    },
+    {
+      "name": "Shelter",
+      "synonyms": [
+        "shelter"
+      ]
+    },
+    {
+      "name": "libraries",
+      "synonyms": [
+        "Libraries",
+        "library",
+        "Library"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "Computer",
+      "synonyms": [
+        "computer"
+      ]
+    },
+    {
+      "name": "school",
+      "synonyms": [
+        "School",
+        "schools",
+        "Schools"
+      ]
+    },
+    {
+      "name": "services",
+      "synonyms": [
+        "service",
+        "Services",
+        "Service"
+      ]
+    },
+    {
+      "name": "Aid",
+      "synonyms": [
+        "aid"
+      ]
+    },
+    {
+      "name": "information",
+      "synonyms": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}
