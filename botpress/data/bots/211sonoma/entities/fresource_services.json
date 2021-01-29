@@ -1,0 +1,29 @@
+{
+  "id": "fresource_services",
+  "name": "fResource_services",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Medi-Cal",
+      "synonyms": [
+        "medi-cal",
+        "medical",
+        "mediCal",
+        "MediCal",
+        "Medical"
+      ]
+    },
+    {
+      "name": "services",
+      "synonyms": [
+        "service",
+        "Services",
+        "Service"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}
