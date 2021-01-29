@@ -3,7 +3,7 @@
   "utterances": {
     "en": [
       "How do I do screening ?",
-      "Where do I find [support](fResource) ?",
+      "Where do I find [support](fResource_support) ?",
       "How can I learn [literacy](fResource_literacy) ?",
       "Where can I get [housing](fResource_housing) ?",
       "Can you help me find  [libraries](fResource) ?",
@@ -25,7 +25,7 @@
       "I need help to find free [food](fResource_food) .",
       "Where can I find a free [therapist](fResource) ?",
       "Where do homeless people [shower](fResource_homeless) ?",
-      "Do you have support [services](fResource_services) ?",
+      "Do you have support [services](fResource_support) ?",
       "How do I apply for [housing](fResource_housing) near me ?",
       "Can I get temporary [housing](fResource_housing) ?",
       "How long can you live at a [shelter](fResource_shelter) ?",
