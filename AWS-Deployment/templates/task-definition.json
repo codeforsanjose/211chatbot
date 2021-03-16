@@ -1,0 +1,21 @@
+{
+  "containerDefinitions": [
+      {
+          "name": "211-chatbot-dev-container",
+          "image": "botpress/server:v12_14_1",
+          "cpu": 0,
+          "memoryReservation": 128,
+          "portMappings": [
+              {
+                  "containerPort": 3000,
+                  "hostPort": 0,
+                  "protocol": "tcp"
+              }
+          ],
+          "essential": true
+      }
+  ],
+  "family": "211-chatbot-dev-td",
+  "networkMode": "bridge",
+  "status": "ACTIVE"
+}
