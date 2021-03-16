@@ -35,7 +35,9 @@
       "Where to find [food](fResource) in Sonoma County ?",
       "Can you give me some options for low-cost [counseling](fResource) ?",
       "Where can I sleep if I'm [homeless](fResource) ?",
-      "How can I get emergency [shelter](fResource) ?"
+      "How can I get emergency [shelter](fResource) ?",
+      "How do I sign up for [Medi-Cal](fResource)?",
+      "Where do I apply for [Cal-Fresh](fResource)?"
     ]
   },
   "slots": [

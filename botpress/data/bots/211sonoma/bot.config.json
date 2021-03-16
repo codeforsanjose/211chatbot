@@ -5,11 +5,11 @@
   "details": {
     "website": "",
     "phoneNumber": "",
-    "termsConditions": "",
     "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
     "avatarUrl": "/api/v1/bots/211sonoma/media/koy135rdf6d43advxzh3-av.png",
-    "coverPictureUrl": "/api/v1/bots/211sonoma/media/cu0zinf7pzofx84xlsiv-about-us-temp.jpg",
-    "privacyPolicy": ""
+    "coverPictureUrl": "/api/v1/bots/211sonoma/media/cu0zinf7pzofx84xlsiv-about-us-temp.jpg"
   },
   "$schema": "../../bot.config.schema.json",
   "description": "",

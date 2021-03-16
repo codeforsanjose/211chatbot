@@ -114,6 +114,57 @@
       ],
       "onReceive": null,
       "type": "standard"
+    },
+    {
+      "id": "skill-0c7600",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-0c7600",
+      "flow": "skills/choice-0c7600.flow.json",
+      "next": [
+        {
+          "caption": "User picked [educati...]",
+          "condition": "temp['skill-choice-ret-9evuszh6jz'] == \"education\"",
+          "node": "entry"
+        },
+        {
+          "caption": "User picked [food]",
+          "condition": "temp['skill-choice-ret-9evuszh6jz'] == \"food\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [housing]",
+          "condition": "temp['skill-choice-ret-9evuszh6jz'] == \"housing\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [transpo...]",
+          "condition": "temp['skill-choice-ret-9evuszh6jz'] == \"transportation\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [health]",
+          "condition": "temp['skill-choice-ret-9evuszh6jz'] == \"health\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [legal]",
+          "condition": "temp['skill-choice-ret-9evuszh6jz'] == \"legal\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [money]",
+          "condition": "temp['skill-choice-ret-9evuszh6jz'] == \"money\"",
+          "node": ""
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
     }
   ]
 }

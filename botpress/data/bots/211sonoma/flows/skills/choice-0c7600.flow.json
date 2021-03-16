@@ -1,0 +1,116 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "9evuszh6jz",
+    "contentId": "builtin_single-choice-hppD27",
+    "invalidContentId": "",
+    "keywords": {
+      "education": [
+        "education",
+        "Education"
+      ],
+      "food": [
+        "food",
+        "Food"
+      ],
+      "housing": [
+        "housing",
+        "Shelter / Housing"
+      ],
+      "transportation": [
+        "transportation",
+        "Transportation"
+      ],
+      "health": [
+        "health",
+        "Health Care"
+      ],
+      "legal": [
+        "legal",
+        "Legal Assistance"
+      ],
+      "money": [
+        "money",
+        "Financial Assistance"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-hppD27 {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "680377"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"9evuszh6jz\",\"contentId\":\"builtin_single-choice-hppD27\",\"invalidContentId\":\"\",\"keywords\":{\"education\":[\"education\",\"Education\"],\"food\":[\"food\",\"Food\"],\"housing\":[\"housing\",\"Shelter / Housing\"],\"transportation\":[\"transportation\",\"Transportation\"],\"health\":[\"health\",\"Health Care\"],\"legal\":[\"legal\",\"Legal Assistance\"],\"money\":[\"money\",\"Financial Assistance\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-9evuszh6jz'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "id": "always"
+            }
+          ]
+        }
+      ],
+      "onEnter": [],
+      "id": "574531"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"9evuszh6jz\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-9evuszh6jz']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "369997"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "570337"
+    }
+  ]
+}

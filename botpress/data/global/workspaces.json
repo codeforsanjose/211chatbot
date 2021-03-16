@@ -4,8 +4,7 @@
     "name": "Default",
     "audience": "external",
     "bots": [
-      "211sonoma",
-      "ctv"
+      "211sonoma"
     ],
     "roles": [
       {
