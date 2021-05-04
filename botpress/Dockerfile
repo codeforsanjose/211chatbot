@@ -1,4 +1,5 @@
 FROM botpress/server:v12_14_1
-ADD . /botpress
 WORKDIR /botpress
+COPY . ./
+EXPOSE 3000
 CMD ["./bp"]
