@@ -1,0 +1,91 @@
+{
+  "id": "fresource_support",
+  "name": "fResource_support",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "License",
+      "synonyms": [
+        "license"
+      ]
+    },
+    {
+      "name": "Housing",
+      "synonyms": [
+        "housing"
+      ]
+    },
+    {
+      "name": "Job",
+      "synonyms": [
+        "job"
+      ]
+    },
+    {
+      "name": "Homeless",
+      "synonyms": [
+        "homeless",
+        "homelessness"
+      ]
+    },
+    {
+      "name": "Grant",
+      "synonyms": [
+        "grant"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "Medi-Cal",
+      "synonyms": [
+        "medi-cal",
+        "medical",
+        "mediCal",
+        "MediCal",
+        "Medical"
+      ]
+    },
+    {
+      "name": "services",
+      "synonyms": [
+        "service",
+        "Services",
+        "Service"
+      ]
+    },
+    {
+      "name": "CalWorks",
+      "synonyms": [
+        "calworks",
+        "calWorks"
+      ]
+    },
+    {
+      "name": "Medi-Cal",
+      "synonyms": [
+        "medi-cal",
+        "medical",
+        "mediCal",
+        "MediCal",
+        "Medical"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

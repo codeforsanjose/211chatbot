@@ -1,0 +1,45 @@
+{
+  "id": "fresource_shelter",
+  "name": "fResource_shelter",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Shelter",
+      "synonyms": [
+        "shelter"
+      ]
+    },
+    {
+      "name": "Food",
+      "synonyms": [
+        "food"
+      ]
+    },
+    {
+      "name": "Lunch",
+      "synonyms": [
+        "lunch",
+        "Lunch?",
+        "lunch?"
+      ]
+    },
+    {
+      "name": "school",
+      "synonyms": [
+        "School",
+        "schools",
+        "Schools"
+      ]
+    },
+    {
+      "name": "information",
+      "synonyms": [
+        "Information"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

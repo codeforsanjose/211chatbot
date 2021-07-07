@@ -1,0 +1,43 @@
+{
+  "id": "fresource_programs",
+  "name": "fResource_programs",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Housing",
+      "synonyms": [
+        "housing"
+      ]
+    },
+    {
+      "name": "programs",
+      "synonyms": [
+        "program",
+        "Program",
+        "Programs"
+      ]
+    },
+    {
+      "name": "Employment",
+      "synonyms": [
+        "employment"
+      ]
+    },
+    {
+      "name": "information",
+      "synonyms": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Insurance",
+      "synonyms": [
+        "insurance"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}

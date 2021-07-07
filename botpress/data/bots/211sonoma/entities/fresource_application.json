@@ -1,0 +1,27 @@
+{
+  "id": "fresource_application",
+  "name": "fResource_application",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "application",
+      "synonyms": [
+        "Application",
+        "applications",
+        "Applications"
+      ]
+    },
+    {
+      "name": "services",
+      "synonyms": [
+        "service",
+        "Services",
+        "Service"
+      ]
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.65,
+  "examples": [],
+  "pattern": ""
+}
